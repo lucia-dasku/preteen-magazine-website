@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- INVISIBLE INFORMATION OF THE PAGE ================================================ -->
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Dev Finals Website</title>
+        <meta name="author" content="ld119">
+        <meta name="description" content="This is the website of the 'Tween Magazine' fashion, style and fun magazine.">
+        <meta name="keywords" content="'Fashion Magazine' 'Style Magazine' 'Trend Setter'">
+        
+        <!-- Stylesheet links -->        
+        <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/shared.css" >
+        <link rel="stylesheet" href="styles/index.css" >
+        <link rel="stylesheet" href="styles/witches.css" >
+    </head>
+    
+<!-- VISIBLE CONTENT ================================================ -->
+<body>
+    
+    <!-- HEADER ================================================ -->
+    <header id="witches">
+        <div class="container d-flex flex-column align-items-center">
+            <h1 class="text-center">Tween Magazine</h1>
+            <p class="text-center">Trend setters Magazine</p>
+        </div>
+        <div class="container d-flex flex-column align-items-center">
+            <h2 id="newsletter">Newsletter now available!</h2>
+            <a class="btn btn-primary btn-lg" href="newsletter.html" role="button">Sign up!</a>
+        </div>
+    </header>
+    
+    <!-- NAVIGATION BAR ================================================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+            
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="style.html">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horoscope.html">Horoscope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="witches.html">NEW! Witches World</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Added search field and button -->
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">search</button> 
+            </form>
+        </div>
+    </nav>
+        
+    <main>  
+
+        
+    <div class="container mt-5">
+    <div class="row">
+        
+    <!-- ELEMENTS ================================================ -->
+    <section id="elements">
+        <h2 class="text-center">Get to know your element of nature</h2>
+        <p> Hey there, young explorers! You might have heard about the twelve zodiac signs, but did you know they are grouped into four main elements of nature? That's right! These elements are Fire, Water, Air, and Earth. Just like how our world has different elements, the zodiac does too. The Fire signs are full of energy and passion, just like a blazing flame. Water signs are deep and emotional, flowing like a river. Air signs are all about thoughts and communication, breezy and free. And Earth signs? They are grounded and practical, standing firm like tall mountains. So, next time you read about your zodiac sign, think about its element and see how it connects with your personality! </p>
+        
+    <!-- Elements of nature cards -->
+
+        <article class="card">
+          <img class="card-image" src="images/fire.jpg" alt="Fire element" >
+          <div class="card-footer">
+            <h3>Fire Element</h3>
+            <div class="card-info">
+              (Aries, Leo, Sagittarius)
+            </div>
+            <p>People born under the Fire signs are often seen as energetic, passionate, and dynamic. Just like a blazing flame, they're natural leaders, full of enthusiasm, and can be quite determined. They love adventures and have a vibrant spirit, always eager to shine bright.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="images/water.jpg" alt="Water element" >
+          <div class="card-footer">
+            <h3>Water element</h3>
+            <div class="card-info">
+              (Cancer, Scorpio, Piscess)
+            </div>
+            <p>Water signs are often described as emotional, sensitive, and intuitive. Like the depth of the ocean, they possess a deep understanding of the world around them. They are empathetic, caring, and often have strong emotional responses to situations.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="images/air.jpg" alt="Air element" >
+          <div class="card-footer">
+            <h3>Air element</h3>
+            <div class="card-info">
+              (Gemini, Libra, Aquarius)
+            </div>
+            <p>Those born under the Air signs are thinkers, communicators, and connectors. Like the free-flowing wind, they are curious minds, always in search of knowledge. They're social butterflies and excel in intellectual conversations and brainstorming sessions.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="images/earth.jpg" alt="Earth element" >
+          <div class="card-footer">
+            <h3>Earth element</h3>
+            <div class="card-info">
+              (Taurus, Virgo, Capricorn)
+            </div>
+            <p>Earth signs are grounded, practical, and steadfast, much like the solid ground we walk upon. They are reliable and often have a nurturing nature. They value stability and have a methodical approach to life, appreciating the tangible and the real.</p>
+          </div>
+        </article>
+      </section>
+        
+        
+    <!-- Feature card for quiz contest -->      
+    <div class="card text-center" id="quiz-card">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h4 class="card-title card-title-mysterious">Play the quiz to win a Harry Potter wand!</h4>
+        <p class="card-text">Answer the questions about Harry Potter to enter the contest and get a chance to win the Wand!</p>
+        <a href="#" class="btn btn-primary spin-on-hover">Press to Play!</a>
+      </div>
+      <div class="card-footer text-muted"> Ends December 24th </div>
+    </div>    
+        
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Quiz Contest</h2>
+        <p>Welcome to the Quiz Contest! Answer the questions and get a chance to win a Harry Potter wand!</p>
+          
+    <!-- Quiz questions -->
+          
+            <!-- Multiple Choice Question -->
+            <div class="question" id="question1">
+                <p>1. Which Hogwarts school house Hermione Granger belongs to?</p>
+                <label><input type="radio" name="q1" value="Gryffindor">Gryffindor</label>
+                <label><input type="radio" name="q1" value="Ravenclaw ">Ravenclaw </label>
+                <label><input type="radio" name="q1" value="Hufflepuff">Hufflepuff</label>
+                <label><input type="radio" name="q1" value="Slytherin">Slytherin</label>
+                <p id="result1"></p>
+            </div>
+              <!-- True/False Question -->
+            <div class="question" id="question2">
+                <p>2. Hagrid cannot do magic spells. (True/False)</p>
+                <label><input type="radio" name="q2" value="True">True</label>
+                <label><input type="radio" name="q2" value="False">False</label>
+                <p id="result2"></p>
+            </div>
+              <!-- Fill-in-the-Blank Question -->
+            <div class="question" id="question3">
+                <p>3. Which class did Professor Snape teach?</p>
+                <input type="text" id="q3" placeholder="Enter your answer">
+                <p id="result3"></p>
+            </div>
+          
+        <!-- Contestant information field-->
+        <h2>Fill in your details:</h2>
+          <form id="contestantInformation" target="_self" autocomplete="on">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" >
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" >
+
+            <label for="emailField">Email:</label>
+            <input type="email" id="emailField" name="email" >
+
+          </form>
+          
+        <!-- Submit Button -->
+    <button class="submit-button" onclick="submitQuiz()">Submit</button>
+          
+      </div>
+    </div>
+        
+    <!-- MOVIE LIST ================================================ -->
+    <section id="movie-list">
+        <h2 class="text-center">10 Must-see movies/TV shows this Halloween season!</h2>
+        <p> Halloween isn't just about dressing up in costumes and trick-or-treating; it's a time to indulge in spooky tales, eerie legends, and magical stories that make our imaginations run wild! As the leaves turn golden and the nights get chillier, there's nothing better than curling up with a cozy blanket, a hot cup of cocoa, and a fantastic Halloween movie. This autumn, we've curated a special list of films perfect for our younger audience. Whether you're in the mood for light-hearted spooky fun, magical adventures, or tales of friendship set against a Halloween backdrop, there's something for everyone. So, gather your friends, prepare some popcorn, and dive into a world of enchantment and mystery with our top Halloween movie picks. Happy watching! </p>
+        <!-- Movie list table -->
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Title</th>
+                    <th>Release Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Wednesday</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Hocus Pocus 2</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>The Curse of Bridge Hollow</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>The Witches</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Chuppa</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Halloweentown </td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Cruella </td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Coco</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Corpse Bride</td>
+                    <td>2005</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Nightbooks</td>
+                    <td>2021</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+   </div>
+  </div>
+        
+    
+        
+    <!-- BACK TO HOME PAGE ================================================ -->
+      <a href="index.html">
+          <img id="logo" src="images/logo.jpg" alt="Logo to home page">
+      </a>
+
+    </main>
+        
+    <!-- FOOTER ================================================ -->
+     
+    <footer>                
+        <div id="contacts">
+            <dl>
+                <dt>Email:</dt>
+                <dd><a href="mailto:contact@fashionmagazine.com">contact@fashionmagazine.com</a></dd>
+
+                <dt>Phone number:</dt>
+                <dd>012 654 789</dd>
+            </dl>
+            <dl>
+                <dt>Address:</dt>
+                <dd>24 London Bridge Street,<br>London, GB36 8BD</dd>
+            </dl>
+        </div>
+        <p id="rights">©2023 | All Rights Reserved</p>
+    </footer>
+
+        
+   <!-- JAVASCRIPT AND JS BOOTSTRAP ================================================ -->       
+        <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+        <script src="scripts/script.js" defer></script>
+    </body>
+    
+</html>
+        

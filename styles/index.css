@@ -1,0 +1,130 @@
+/* HEADER STYLES======================================================== */
+
+header {
+  background-image: url("../images/header.jpg");
+  background-color: #FAA39D;
+  /* Rose gold color background */
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  /* Header image height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  /* No white spaces */
+}
+
+/* HEADER TEXT STYLES =======================================================*/
+
+/* h1 styles */
+header h1 {
+  font-size: 120px;
+  /* Title text size */
+  font-weight: 700;
+  font-family: 'Georgia', sans-serif;
+  /* web-safe font */
+  color: #FFFF;
+  /* Title text color */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  /* Title text shadowing */
+}
+
+/* paragraph styles */
+header p {
+  font-size: 30px;
+  /* Slogan text size */
+  font-weight: 600;
+  font-family: serif;
+  color: #FFFF;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* h2 styles */
+header h2 {
+  font-size: 26px;
+  /* Newsletter text size */
+  font-weight: 600;
+  font-family: serif;
+  color: #FFE033;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* REPORT HEADER STYLES =======================================================*/
+
+#report-header {
+  background-image: none;
+  height: 35vh;
+}
+
+/* REPORT HEADER TEXT STYLES =======================================================*/
+
+/* report header h1 text size */
+#report-header h1 {
+  font-size: 40px;
+}
+
+/* report paragraph text size */
+#report-header p {
+  font-size: 20px;
+}
+
+
+/* WITCHES WORLD ADVERTISMENT STYLES ======================================================= */
+#witches-add {
+  background-image: url("../images/banner.jpg");
+  background-color: #FAA39D;
+  /* Ravenclaw house color */
+  background-position: center;
+  background-size: cover;
+  color: black;
+  margin-top: 2%;
+  /* Space bettween article cards and Quiz card */
+  margin-bottom: 2%;
+  padding-left: 0%;
+  /* Bootstrap add default padding, removed for header and footer to cover */
+  padding-right: 0%;
+}
+
+/* Color for the card header and footer */
+.card-header,
+.card-footer {
+  background-color: rgba(240, 240, 255, 0.8);
+  /* Background color with 0.8 transparency */
+  width: 100%;
+  color: black;
+}
+
+/* Card title styles */
+.card-title-mysterious {
+  font-family: 'Georgia', serif;
+  /* Text fonts */
+  color: black;
+  ;
+  /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* Text shadowing */
+}
+
+/* To adapt cards for screens up to 768 pixels wide (like tablets) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 55px;
+  }
+
+  header p {
+    font-size: 20px;
+  }
+}
+
+/* To adapt cards for screens up to 480 pixels wide (like mobile phones) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 35px;
+  }
+
+  header p {
+    display: none;
+  }
+}

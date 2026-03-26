@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- INVISIBLE INFORMATION OF THE PAGE ================================================ -->
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Dev Finals Website</title>
+        <meta name="author" content="ld119">
+        <meta name="description" content="This is the website of the 'Tween Magazine' fashion, style and fun magazine.">
+        <meta name="keywords" content="'Fashion Magazine' 'Style Magazine' 'Trend Setter'">
+        
+        <!-- Stylesheet links -->        
+        <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/shared.css" >
+    </head>
+    
+<!-- VISIBLE CONTENT ================================================ -->
+<body>
+    
+    <!-- NAVIGATION BAR ================================================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+            
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="style.html">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horoscope.html">Horoscope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="witches.html">NEW! Witches World</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Added search field and button -->
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">search</button> 
+            </form>
+        </div>
+    </nav>
+        
+    <main> 
+        
+        <!-- HAIRSTYLES FOR SCHOOL VIDEOS ================================================ -->
+    <div class="container mt-4">
+    <div class="row">
+        <h2 class="text-center">Trendy hairstyles for school</h2>
+        <p class="text-center">From classic ponytails and messy buns to elegant braids and chic top knots, there's a wide array of options to choose from. Whether you have long, medium, or short hair, there's a school-friendly hairstyle that suits your hair type and mood. These hairstyles not only keep your hair neat and tidy but also allow you to focus on your studies without hair distractions. Plus, you can get creative by adding accessories like colorful scrunchies or stylish headbands to make your look uniquely yours. So, embrace the versatility of school hairstyles, and let your hair be an extension of your personality as you tackle each school day with confidence and flair. This month we offer 4 unique hairstyles to choose from: </p>
+
+            <!-- Press to play, starts as muted, with added control for sound  -->
+            <!-- First hairstyle video  -->
+        <div class="col-md-3">
+        <div class="card">
+            <video
+                id="hairstylesVideo1"
+                aria-label="Easy twisted halv-do for a girl"
+                loop
+                muted 
+                controls
+            >
+                <source src="videos/hairstyle1.mp4" type="video/mp4">
+                    Sorry, your browser does not support HTML5 video.
+            </video>
+        </div>
+        </div>
+        
+            <!-- Second hairstyle video  -->
+        <div class="col-md-3">
+        <div class="card">
+            <video
+                id="hairstylesVideo2"
+                aria-label="Easy hairstyle for a school girl"
+                loop
+                muted 
+                controls
+            >
+                <source src="videos/hairstyle2.mp4" type="video/mp4">
+                    Sorry, your browser does not support HTML5 video.
+            </video>  
+        </div>
+        </div>
+        
+            <!-- Third hairstyle video  -->
+        <div class="col-md-3">
+        <div class="card">
+            <video
+                id="hairstylesVideo3"
+                aria-label="Easy hairstyle for a school girl"
+                loop
+                muted 
+                controls
+            >
+                <source src="videos/hairstyle3.mp4" type="video/mp4">
+                    Sorry, your browser does not support HTML5 video.
+            </video>
+        </div>
+        </div>
+        
+            <!-- Fourth hairstyle video  -->
+        <div class="col-md-3">
+        <div class="card">
+            <video
+                id="hairstylesVideo4"
+                aria-label="Easy hairstyle for a school girl"
+                loop
+                muted 
+                controls
+            >
+                <source src="videos/hairstyle4.mp4" type="video/mp4">
+                    Sorry, your browser does not support HTML5 video.
+            </video>
+        </div>
+        </div>
+
+
+        <!-- BACK TO HOME PAGE ================================================ -->
+          <a href="index.html">
+              <img id="logo" src="images/logo.jpg" alt="Logo to home page">
+          </a>
+        </div>
+        </div>
+    </main>
+        
+    <!-- FOOTER ================================================ -->
+     
+    <footer>                
+        <div id="contacts">
+            <dl>
+                <dt>Email:</dt>
+                <dd><a href="mailto:contact@fashionmagazine.com">contact@fashionmagazine.com</a></dd>
+
+                <dt>Phone number:</dt>
+                <dd>012 654 789</dd>
+            </dl>
+            <dl>
+                <dt>Address:</dt>
+                <dd>24 London Bridge Street,<br>London, GB36 8BD</dd>
+            </dl>
+        </div>
+        <p id="rights">©2023 | All Rights Reserved</p>
+    </footer>
+        
+   <!-- JAVASCRIPT AND JS BOOTSTRAP ================================================ -->       
+        <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+        <script src="scripts/script.js" defer></script>
+    </body>
+    
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- INVISIBLE INFORMATION OF THE PAGE ================================================ -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Dev Finals Website</title>
+    <meta name="author" content="ld119">
+    <meta name="description" content="This is the website of the 'Tween Magazine' fashion, style and fun magazine.">
+    <meta name="keywords" content="'Fashion Magazine' 'Style Magazine' 'Trend Setter'">
+
+    <!-- Stylesheet links -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/shared.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<!-- VISIBLE CONTENT ================================================ -->
+
+<body>
+
+    <!-- HEADER ================================================ -->
+    <header>
+        <div class="container d-flex flex-column align-items-center">
+            <h1 class="text-center">Tween Magazine</h1>
+            <p class="text-center">Trend setters Magazine</p>
+        </div>
+        <div class="container d-flex flex-column align-items-center">
+            <h2 id="newsletter">Newsletter available!</h2>
+            <a class="btn btn-primary btn-lg" href="newsletter.html" role="button">Sign up!</a>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR ================================================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="style.html">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horoscope.html">Horoscope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="witches.html">NEW! Witches World</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Added search field and button -->
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT ================================================ -->
+
+    <main>
+
+        <!-- CARD LAYOUT SECTION ================================================ -->
+        <div class="container mt-5">
+            <div class="row">
+
+                <!-- Fall style article -->
+                <div class="col-md-6"> <!-- grid layout  -->
+                    <div class="card">
+                        <img src="images/fashion.jpg" class="card-img-top" alt="three girls in fall Style">
+                        <div class="card-body">
+                            <h5 class="card-title">Fall Style</h5>
+                            <p class="card-text">Hey there, stylish little trendsetters! As the leaves start to change
+                                colors and the air gets a bit crisp, it's time to talk about the awesome fall style
+                                trends coming your way. This season, you can rock cozy sweaters in vibrant colors, layer
+                                up with cool jackets, and show off your unique style with fun accessories like funky
+                                hats and colorful scarves. Don't forget to put on your comfiest boots for those
+                                leaf-crunching adventures! Whether you love dressing up or keeping it casual, fall is
+                                all about expressing yourself through fashion while staying warm and comfy. So, get
+                                ready to strut your stuff with confidence and have a blast trying out new fall looks
+                                with friends. Fashion-forward and ready for fun – that's the spirit of fall style!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back to school article -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="images/school.jpg" class="card-img-top"
+                            alt="girl with a laptop and same girl with a book">
+                        <div class="card-body">
+                            <h5 class="card-title">Back to School</h5>
+                            <p class="card-text">Autumn marks the return of the back-to-school season, and it's time to
+                                prepare yourself to shine brightly this school year! Get ready to dust off those
+                                backpacks, sharpen your pencils, and unleash your curiosity. Remember, it's not just
+                                about books and lessons; it's about making new friends, exploring the world around you,
+                                and discovering the joy of learning. Here are five tips how to succeed this year:</p>
+                            <!-- List for back to school tips -->
+                            <ul>
+                                <li>
+                                    <strong>Organize Your Workspace:</strong> Create a special corner for studying. Make
+                                    it colorful, tidy, and keep all your stationery handy.
+                                </li>
+                                <li>
+                                    <strong>Plan Your Outfits:</strong> Coordinate your outfits for the week, maybe even
+                                    adding fun accessories to mix and match.
+                                </li>
+                                <li>
+                                    <strong>Sleep Schedule:</strong> Aim for 8-10 hours of sleep, especially before the
+                                    first day back to feel refreshed.
+                                </li>
+                                <li>
+                                    <strong>Connect with Friends:</strong> Chat with your besties before school. Share
+                                    excitement, class schedules, and any new accessories you've got!
+                                </li>
+                                <li>
+                                    <strong>Backpack Essentials:</strong> Along with books, pack a personal kit with a
+                                    hairbrush, lip balm, hand sanitizer, and perhaps a diary to jot down memories.
+                                </li>
+                            </ul>
+                            <p>Remember, middle school is a fun adventure, so wear your brightest smile and be ready to
+                                make lots of amazing memories!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature card for Witches World page -->
+                <div class="card text-center" id="witches-add">
+                    <div class="card-header">Featured</div>
+                    <div class="card-body">
+                        <h3 class="card-title card-title-mysterious"> Whole new page for Witches World!</h3>
+                        <p class="card-text">Get to know what to watch this autumn, play the contest to win exciting
+                            gifts and much more!</p>
+                        <a href="witches.html" class="btn btn-primary">Enter the world</a>
+                        <!-- Bootstrap button primary -->
+                    </div>
+                    <div class="card-footer text-muted">10 days ago</div> <!-- posted number of the days ago -->
+                </div>
+
+                <!-- Hairstyles for school card article -->
+                <div class="card mb-4" style="max-width: 700px;"> <!-- Margin spacing between cards and cards widht -->
+                    <div class="row g-0"> <!-- Grid spacing -->
+                        <div class="col-md-4">
+                            <img src="images/hairstyles.jpg" alt="Girl with long light hair"
+                                class="img-fluid rounded-start"> <!-- image should rounded corners -->
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Trendy hairstyles for school</h5>
+                                <p class="card-text">Finding the perfect hairstyle for school can be a fun way to
+                                    express your personal style and stay comfortable throughout the day. <a class="link"
+                                        href="style.html">Read more...</a></p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACK TO HOME PAGE ================================================ -->
+        <a href="index.html">
+            <img id="logo" src="images/logo.jpg" alt="Logo to home page">
+        </a>
+
+    </main>
+
+    <!-- FOOTER ================================================ -->
+
+    <footer>
+        <div id="contacts">
+            <dl>
+                <dt>Email:</dt>
+                <dd><a href="mailto:contact@fashionmagazine.com">contact@fashionmagazine.com</a></dd>
+
+                <dt>Phone number:</dt>
+                <dd>012 654 789</dd>
+            </dl>
+            <dl>
+                <dt>Address:</dt>
+                <dd>24 London Bridge Street,<br>London, GB36 8BD</dd>
+            </dl>
+        </div>
+        <p id="rights">©2023 | All Rights Reserved</p>
+    </footer>
+
+    <!-- JAVASCRIPT AND JS BOOTSTRAP ================================================ -->
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/script.js" defer></script>
+</body>
+
+</html>

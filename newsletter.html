@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- INVISIBLE INFORMATION OF THE PAGE ================================================ -->
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Dev Finals Website</title>
+        <meta name="author" content="ld119">
+        <meta name="description" content="This is the website of the 'Tween Magazine' fashion, style and fun magazine.">
+        <meta name="keywords" content="'Fashion Magazine' 'Style Magazine' 'Trend Setter'">
+        
+        <!-- Stylesheet links -->        
+        <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/index.css" >
+        <link rel="stylesheet" href="styles/shared.css" >
+    </head>
+    
+    <!-- VISIBLE CONTENT ================================================ -->
+<body>
+    
+    <!-- NAVIGATION BAR ================================================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+            
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="style.html">Style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horoscope.html">Horoscope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="witches.html">NEW! Witches World</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Added search field and button -->
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">search</button> 
+            </form>
+        </div>
+    </nav>
+        
+    <main>  
+    <!-- Bootstrap -->
+      <div class="container mt-5">
+      <div class="row"> 
+          
+        <!-- Introduction to magazine -->
+          <div class="col-lg-12"> <!-- column width for large screens -->
+            <section id="introduction">
+            <h2 class="text-center">Welcome to Tween Magazine!</h2>
+            <p>Dive into the world of youthful exuberance, where fashion meets passion and style knows no bounds. Our magazine is the ultimate destination for young trendsetters aiming to make a statement. From the latest in fall style trends to back-to-school essentials, from the magical realms of witches to the iconic Barbie trend, we cover it all. We understand the unique blend of enthusiasm and individuality that comes with being a tween, and we've tailored our content to resonate with that spirit.</p>
+
+            <p>Whether you're searching for inspiration, keen on trying new looks, or just want to stay updated on the latest happenings in the tween universe, you're in the right place. So, browse around, explore, and let your inner style shine. After all, at Tween Magazine, every day is a fashion show, and the world is your runway.</p>
+
+            <p>Happy exploring!</p>
+            </section>
+        </div>
+           
+       <!--  NEWSLETTER SIGN UP ================================================ -->          
+          
+         <!-- Newsletter form -->
+        <section id="newsletter-form" class="container mt-4">
+            <h3 class="mb-3">Sign up for newsletter!</h3>
+            <form id="signup-form" autocomplete="on">    <!-- Autocompletes information stored on pc-->
+                <!-- First name input -->
+                <div class="form-group">
+                    <label for="fname">First name:</label>
+                    <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name"> <!-- Form control to add framework style -->
+                </div>
+
+                <!-- Last name input -->
+                <div class="form-group">
+                    <label for="lname">Last name:</label>
+                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name">
+                </div> 
+
+                <!-- Email input -->
+                <div class="form-group">
+                    <label for="emailField">Email:</label>
+                    <input type="email" class="form-control" id="emailField" name="email" placeholder="Enter your email">
+                </div>
+
+                <!-- Phone number input -->
+                <div class="form-group">
+                    <label for="phoneField">Phone number:</label>
+                    <input type="tel" class="form-control" id="phoneField" name="phoneNumber" placeholder="Enter your phone number">
+                </div>
+
+                <!-- Submit button -->
+                <button class="btn btn-primary" type="submit">Sign up!</button>
+
+            </form>
+        </section>      
+      </div> 
+        
+        <!-- BACK TO HOME PAGE ================================================ -->
+          <a href="index.html">
+                <img id="logo" src="images/logo.jpg" alt="Logo to home page">
+          </a>
+            
+      </div>
+    </main>
+        
+    <!-- FOOTER -================================================ -->
+     
+    <footer>                
+        <div id="contacts">
+            <dl>
+                <dt>Email:</dt>
+                <dd><a href="mailto:contact@fashionmagazine.com">contact@fashionmagazine.com</a></dd>
+
+                <dt>Phone number:</dt>
+                <dd>012 654 789</dd>
+            </dl>
+            <dl>
+                <dt>Address:</dt>
+                <dd>24 London Bridge Street,<br>London, GB36 8BD</dd>
+            </dl>
+        </div>
+        <p id="rights">©2023 | All Rights Reserved</p>
+    </footer>
+        
+   <!-- JAVASCRIPT AND JS BOOTSTRAP ================================================ -->       
+        <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+        <script src="scripts/script.js" defer></script>
+    </body>
+    
+</html>
