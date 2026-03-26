@@ -30,7 +30,7 @@ Through this project, I developed skills in:
 - Integrating media and improving accessibility
 
 ## Coursework Context
-This project was developed as part of a Web Development module, where the objective was to build a responsive magazine or newsletter website with multiple pages, media integration, and attention to usability and accessibility.
+This project was developed in 2022-2023 as part of a Web Development module, where the objective was to build a responsive magazine or newsletter website with multiple pages, media integration, and attention to usability and accessibility.
 
 ## Future Improvements
 - Add dynamic content (API integration)
