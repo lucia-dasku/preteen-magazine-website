@@ -35,17 +35,18 @@
     </header>
 
     <!-- NAVIGATION BAR ================================================ -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <a class="navbar-brand" href="index.html">Tween Magazine</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav ms-auto nav-buttons">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
@@ -58,16 +59,10 @@
                         <a class="nav-link" href="newsletter.html">Newsletter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="witches.html">NEW! Witches World</a>
+                        <a class="nav-link active" href="witches.html">Witches World</a>
                     </li>
                 </ul>
             </div>
-
-            <!-- Added search field and button -->
-            <form class="d-flex">
-                <input type="text" class="form-control me-2">
-                <button type="submit" class="btn btn-primary">search</button>
-            </form>
         </div>
     </nav>
 
@@ -80,13 +75,20 @@
                 <!-- ELEMENTS ================================================ -->
                 <section id="elements">
                     <h2 class="text-center">Get to know your element of nature</h2>
-                    <p> Hey there, young explorers! You might have heard about the twelve zodiac signs, but did you know
-                        they are grouped into four main elements of nature? That's right! These elements are Fire,
-                        Water, Air, and Earth. Just like how our world has different elements, the zodiac does too. The
-                        Fire signs are full of energy and passion, just like a blazing flame. Water signs are deep and
-                        emotional, flowing like a river. Air signs are all about thoughts and communication, breezy and
-                        free. And Earth signs? They are grounded and practical, standing firm like tall mountains. So,
-                        next time you read about your zodiac sign, think about its element and see how it connects with
+                    <p> Hey there, young explorers! You might have heard about the twelve zodiac signs, but did
+                        you know
+                        they are grouped into four main elements of nature? That's right! These elements are
+                        Fire,
+                        Water, Air, and Earth. Just like how our world has different elements, the zodiac does
+                        too. The
+                        Fire signs are full of energy and passion, just like a blazing flame. Water signs are
+                        deep and
+                        emotional, flowing like a river. Air signs are all about thoughts and communication,
+                        breezy and
+                        free. And Earth signs? They are grounded and practical, standing firm like tall
+                        mountains. So,
+                        next time you read about your zodiac sign, think about its element and see how it
+                        connects with
                         your personality! </p>
 
                     <!-- Elements of nature cards -->
@@ -98,9 +100,12 @@
                             <div class="card-info">
                                 (Aries, Leo, Sagittarius)
                             </div>
-                            <p>People born under the Fire signs are often seen as energetic, passionate, and dynamic.
-                                Just like a blazing flame, they're natural leaders, full of enthusiasm, and can be quite
-                                determined. They love adventures and have a vibrant spirit, always eager to shine
+                            <p>People born under the Fire signs are often seen as energetic, passionate, and
+                                dynamic.
+                                Just like a blazing flame, they're natural leaders, full of enthusiasm, and can
+                                be quite
+                                determined. They love adventures and have a vibrant spirit, always eager to
+                                shine
                                 bright.</p>
                         </div>
                     </article>
@@ -112,7 +117,8 @@
                             <div class="card-info">
                                 (Cancer, Scorpio, Piscess)
                             </div>
-                            <p>Water signs are often described as emotional, sensitive, and intuitive. Like the depth of
+                            <p>Water signs are often described as emotional, sensitive, and intuitive. Like the
+                                depth of
                                 the ocean, they possess a deep understanding of the world around them. They are
                                 empathetic, caring, and often have strong emotional responses to situations.</p>
                         </div>
@@ -125,9 +131,12 @@
                             <div class="card-info">
                                 (Gemini, Libra, Aquarius)
                             </div>
-                            <p>Those born under the Air signs are thinkers, communicators, and connectors. Like the
-                                free-flowing wind, they are curious minds, always in search of knowledge. They're social
-                                butterflies and excel in intellectual conversations and brainstorming sessions.</p>
+                            <p>Those born under the Air signs are thinkers, communicators, and connectors. Like
+                                the
+                                free-flowing wind, they are curious minds, always in search of knowledge.
+                                They're social
+                                butterflies and excel in intellectual conversations and brainstorming sessions.
+                            </p>
                         </div>
                     </article>
 
@@ -138,8 +147,10 @@
                             <div class="card-info">
                                 (Taurus, Virgo, Capricorn)
                             </div>
-                            <p>Earth signs are grounded, practical, and steadfast, much like the solid ground we walk
-                                upon. They are reliable and often have a nurturing nature. They value stability and have
+                            <p>Earth signs are grounded, practical, and steadfast, much like the solid ground we
+                                walk
+                                upon. They are reliable and often have a nurturing nature. They value stability
+                                and have
                                 a methodical approach to life, appreciating the tangible and the real.</p>
                         </div>
                     </article>
@@ -150,8 +161,10 @@
                 <div class="card text-center" id="quiz-card">
                     <div class="card-header">Featured</div>
                     <div class="card-body">
-                        <h4 class="card-title card-title-mysterious">Play the quiz to win a Harry Potter wand!</h4>
-                        <p class="card-text">Answer the questions about Harry Potter to enter the contest and get a
+                        <h4 class="card-title card-title-mysterious">Play the quiz to win a Harry Potter wand!
+                        </h4>
+                        <p class="card-text">Answer the questions about Harry Potter to enter the contest and
+                            get a
                             chance to win the Wand!</p>
                         <a href="#" class="btn btn-primary spin-on-hover">Press to Play!</a>
                     </div>
@@ -163,7 +176,8 @@
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <h2>Quiz Contest</h2>
-                        <p>Welcome to the Quiz Contest! Answer the questions and get a chance to win a Harry Potter
+                        <p>Welcome to the Quiz Contest! Answer the questions and get a chance to win a Harry
+                            Potter
                             wand!</p>
 
                         <!-- Quiz questions -->
@@ -214,14 +228,21 @@
                 <!-- MOVIE LIST ================================================ -->
                 <section id="movie-list">
                     <h2 class="text-center">10 Must-see movies/TV shows this Halloween season!</h2>
-                    <p> Halloween isn't just about dressing up in costumes and trick-or-treating; it's a time to indulge
-                        in spooky tales, eerie legends, and magical stories that make our imaginations run wild! As the
-                        leaves turn golden and the nights get chillier, there's nothing better than curling up with a
-                        cozy blanket, a hot cup of cocoa, and a fantastic Halloween movie. This autumn, we've curated a
+                    <p> Halloween isn't just about dressing up in costumes and trick-or-treating; it's a time to
+                        indulge
+                        in spooky tales, eerie legends, and magical stories that make our imaginations run wild!
+                        As the
+                        leaves turn golden and the nights get chillier, there's nothing better than curling up
+                        with a
+                        cozy blanket, a hot cup of cocoa, and a fantastic Halloween movie. This autumn, we've
+                        curated a
                         special list of films perfect for our younger audience. Whether you're in the mood for
-                        light-hearted spooky fun, magical adventures, or tales of friendship set against a Halloween
-                        backdrop, there's something for everyone. So, gather your friends, prepare some popcorn, and
-                        dive into a world of enchantment and mystery with our top Halloween movie picks. Happy watching!
+                        light-hearted spooky fun, magical adventures, or tales of friendship set against a
+                        Halloween
+                        backdrop, there's something for everyone. So, gather your friends, prepare some popcorn,
+                        and
+                        dive into a world of enchantment and mystery with our top Halloween movie picks. Happy
+                        watching!
                     </p>
                     <!-- Movie list table -->
                     <table>
