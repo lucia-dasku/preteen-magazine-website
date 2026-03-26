@@ -1,13 +1,13 @@
 /* NAVIGATION ======================================================== */
 
 .custom-navbar {
-  background-color: #faa39d;
+  background-color: #F7C8A0;
   padding: 14px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .navbar-brand {
-  color: #222;
+  color: #2C2C2C;
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
@@ -22,8 +22,8 @@
 }
 
 .nav-buttons .nav-link {
-  color: #222;
-  background-color: rgba(255, 255, 255, 0.45);
+  color: #2C2C2C;
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 8px 16px;
   border-radius: 999px;
   text-decoration: none;
@@ -33,13 +33,13 @@
 }
 
 .nav-buttons .nav-link:hover {
-  background-color: white;
-  color: #000;
+  background-color: #FDEBDD;
+  color: #2C2C2C;
 }
 
 .nav-buttons .nav-link.active {
-  background-color: #ffffff;
-  color: #000;
+  background-color: #E79A5B;
+  color: white;
   font-weight: 700;
 }
 
@@ -67,13 +67,34 @@
   }
 }
 
+.btn-primary {
+  background-color: #E79A5B;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #d98949;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
 /* BODY ======================================================== */
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     "Noto Sans", "Liberation Sans", Arial, sans-serif;
-  color: black;
+  color: #2C2C2C;
   margin: 0;
+  background-color: #FFF9F5;
 }
 
 /* LOGO ======================================================== */
@@ -81,33 +102,36 @@ body {
 #logo {
   display: block;
   margin: 20px auto;
-  transform: scale(0.5);
+  max-width: 260px;
+  width: 100%;
+  height: auto;
 }
 
 /* FOOTER ======================================================== */
 
 footer {
-  background-color: #faa39d;
+  background-color: #F7C8A0;
   min-height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 4%;
+  padding: 30px 20px;
 }
 
 #contacts {
   margin-right: auto;
   padding-left: 50px;
   text-align: left;
-  color: black;
+  color: #2C2C2C;
 }
 
 #rights,
 #end {
   text-align: center;
   font-size: 14px;
-  color: black;
+  color: #2C2C2C;
 }
 
 h2 {

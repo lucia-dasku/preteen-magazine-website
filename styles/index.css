@@ -3,52 +3,58 @@
 header {
   background-image: url("../images/header.jpg");
   background-color: #FAA39D;
-  /* Rose gold color background */
   background-position: center;
   background-size: cover;
   height: 75vh;
-  /* Header image height */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0px;
-  /* No white spaces */
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
+
 
 /* HEADER TEXT STYLES =======================================================*/
 
 /* h1 styles */
 header h1 {
-  font-size: 120px;
-  /* Title text size */
+  font-size: 105px;
   font-weight: 700;
-  font-family: 'Georgia', sans-serif;
-  /* web-safe font */
-  color: #FFFF;
-  /* Title text color */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-  /* Title text shadowing */
-}
-
-/* paragraph styles */
-header p {
-  font-size: 30px;
-  /* Slogan text size */
-  font-weight: 600;
-  font-family: serif;
-  color: #FFFF;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  font-family: Georgia, serif;
+  color: #fffdfb;
+  text-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  margin-bottom: 18px;
 }
 
 /* h2 styles */
 header h2 {
   font-size: 26px;
-  /* Newsletter text size */
   font-weight: 600;
-  font-family: serif;
-  color: #FFE033;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  font-family: Georgia, serif;
+  color: #ffe7b8;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+}
+
+.hero-newsletter-card {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  padding: 24px 34px;
+  background-color: rgba(255, 249, 245, 0.22);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+}
+
+.hero-newsletter-card #newsletter {
+  margin: 0;
+  color: #fff0cf;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 /* REPORT HEADER STYLES =======================================================*/
@@ -74,7 +80,7 @@ header h2 {
 /* WITCHES WORLD ADVERTISMENT STYLES ======================================================= */
 #witches-add {
   background-image: url("../images/banner.jpg");
-  background-color: #FAA39D;
+  background-color: #E0E7FF;
   /* Ravenclaw house color */
   background-position: center;
   background-size: cover;
@@ -98,7 +104,7 @@ header h2 {
 
 /* Card title styles */
 .card-title-mysterious {
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   /* Text fonts */
   color: black;
   ;
