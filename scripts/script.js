@@ -35,20 +35,20 @@ window.addEventListener("click", function (event) {
 });
 
 // To play hairstyle videos, play, pause, sound control
-document.getElementById('hairstylesVideo').addEventListener('click', function() {
-    var video = this; // Refers to the video element
+document.getElementById('hairstylesVideo').addEventListener('click', function () {
+  var video = this; // Refers to the video element
 
-    if (video.paused) { // If the video is paused, play it
-        video.play();
-    } else { // If the video is playing, pause it
-        video.pause();
-    }
+  if (video.paused) { // If the video is paused, play it
+    video.play();
+  } else { // If the video is playing, pause it
+    video.pause();
+  }
 });
 
 
 // Function to check the quiz
 function submitQuiz() {
-    checkMultipleChoice('q1');
-    checkTrueFalse('q2');
-    checkFillInTheBlank('q3'); 
+  checkMultipleChoice('q1');
+  checkTrueFalse('q2');
+  checkFillInTheBlank('q3');
 }
