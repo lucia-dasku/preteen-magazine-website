@@ -1,6 +1,6 @@
 # Tween Magazine Website
 
-A responsive multi-page magazine-style website designed and developed as part of a Web Development coursework project.
+A responsive multi-page magazine-style website designed and developed as part of a Web Development coursework project. Initially made in 2020 as Computer Science - Programming I course project. 
 
 ## Project Overview
 This project involved designing and building a fully responsive website for a digital magazine. The goal was to simulate a real-world scenario of creating a content-driven website with multiple pages, structured navigation, and integrated media.
